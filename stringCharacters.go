@@ -1,4 +1,4 @@
-ackage main
+package main
 
 import (
 	"fmt"
@@ -39,16 +39,3 @@ func main() {
 	str6 = strings.Replace(str6,"l","L",-1)
 	fmt.Printf("\n Inserted characters in string : %s",str6)	
 }
-==================================================================================
-Structure
----------
-	type employee struct {
-		id int
-		name string
-		desgn string
-	}	
-	  var emp employee	
-	  emp = employee {1,"abc","SSE"}	
-	  fmt.Println("struct values",emp)
-	  fmt.Println("struct values - name",emp.name)
-	  fmt.Println("struct values - designation",emp.desgn)
